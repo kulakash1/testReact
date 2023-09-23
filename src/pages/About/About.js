@@ -1,5 +1,5 @@
 import "./About.css";
-import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/css/bootstrap.css";
 import Navbar1 from "../components/Navbar/navbar.js";
 
 import { profileImage } from "../components/assets/Content/profileImage.js";

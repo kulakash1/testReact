@@ -1,5 +1,6 @@
 import "./footer.css";
-import "https://kit.fontawesome.com/15696a5f7b.js";
+// import "https://kit.fontawesome.com/15696a5f7b.js";
+
 // import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 import { profileImage } from "../../components/assets/Content/profileImage.js";

@@ -1,6 +1,6 @@
 import Navbar1 from "../components/Navbar/navbar.js";
 import Footer from "../components/Footer/footer.js";
-import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/css/bootstrap.css";
 
 import "./home.css";
 import React from "react";

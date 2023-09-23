@@ -1,5 +1,5 @@
 import "./Under Construction.css";
-import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/css/bootstrap.css";
 import Navbar1 from "../../components/Navbar/navbar.js";
 
 const UnderConstruction = () => {

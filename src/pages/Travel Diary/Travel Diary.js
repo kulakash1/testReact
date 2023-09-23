@@ -1,5 +1,5 @@
 import "./Travel Diary.css";
-import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/css/bootstrap.css";
 import Navbar1 from "../components/Navbar/navbar.js";
 
 import { PlacesVisited } from "../components/assets/Content/dataTravelDiary.js";
