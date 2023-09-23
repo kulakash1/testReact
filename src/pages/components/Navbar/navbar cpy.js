@@ -1,6 +1,6 @@
-// import Container from "react-bootstrap/Container";
-// import Nav from "react-bootstrap/Nav";
-// import Navbar from "react-bootstrap/Navbar";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
 // //if Dop Down is used
 // import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -12,16 +12,16 @@ import "./navbar.css";
 
 function Navbar1() {
   return (
-    <div expand="lg" className="navbar navbar-expand-lg navbar-dark nav-Bg">
-        <div className="navbar navbar-expand-lg navbar-dark nav-Bg">
+    <Navbar expand="lg" className="navbar navbar-expand-lg navbar-dark nav-Bg">
+        <Container className="navbar navbar-expand-lg navbar-dark nav-Bg">
           <Link className="navbar-brand navBtn" to="/">
             AK
             {/* <!-- <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-logo-img.png" class="navbar-image" alt="" /> --> */}
           </Link>
           {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
-          {/* <nav aria-controls="basic-navbar-nav" />
-          <nav.Collapse id="basic-navbar-nav"> */}
-            <div className="navbar-nav ml-auto me-auto">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="navbar-nav ml-auto me-auto">
               <Link className="nav-link active" to="/">HOME</Link>
               <Link className="nav-link active" to="/about">ABOUT</Link>
               <Link className="nav-link active" to="/traveldiary">TRAVEL DIARY</Link>
@@ -43,10 +43,10 @@ function Navbar1() {
             </NavDropdown> */}
 
               {/* DROPDOWN */}
-            </div>
-          {/* </nav.Collapse> */}
-        </div>
-      </div>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
   );
 }
 
